@@ -1,0 +1,5 @@
+<launch>
+  <node name="typing" pkg="typing" type="typing" output="screen"/>
+  <node name="typing_sound" pkg="typing" type="typing_sound"/>
+  <node name="soundplay_node" pkg="sound_play" type="soundplay_node.py"/>
+</launch>
