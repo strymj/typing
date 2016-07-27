@@ -70,12 +70,12 @@ class Ety/*{{{*/
 		Ety()
 		{
 			sound_pub = nh.advertise<std_msgs::Int32>("ring",1);
-			strcpy(filename[0][0], "../ros_catkin_ws/src/typing/txtfile/duotan.txt");
-			strcpy(filename[0][1], "../ros_catkin_ws/src/typing/record/misstan.txt");
-			strcpy(filename[0][2], "../ros_catkin_ws/src/typing/record/misstam_sub.txt");
-			strcpy(filename[1][0], "../ros_catkin_ws/src/typing/txtfile/duobun.txt");
-			strcpy(filename[1][1], "../ros_catkin_ws/src/typing/record/missbun.txt");
-			strcpy(filename[1][2], "../ros_catkin_ws/src/typing/record/missbun_sub.txt");
+			strcpy(filename[0][0], "../catkin_ws/src/typing/txtfile/duotan.txt");
+			strcpy(filename[0][1], "../catkin_ws/src/typing/record/misstan.txt");
+			strcpy(filename[0][2], "../catkin_ws/src/typing/record/misstam_sub.txt");
+			strcpy(filename[1][0], "../catkin_ws/src/typing/txtfile/duobun.txt");
+			strcpy(filename[1][1], "../catkin_ws/src/typing/record/missbun.txt");
+			strcpy(filename[1][2], "../catkin_ws/src/typing/record/missbun_sub.txt");
 			modeselect = 0;
 			regist_num = 0;
 			miss = 0;

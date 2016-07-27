@@ -7,9 +7,9 @@
 #define LOOPRATE 10/*}}}*/
 
 bool flag_ring = false;/*{{{*/
-char start[] = "../ros_catkin_ws/src/typing/sounds/start.wav";
-char maru[]  = "../ros_catkin_ws/src/typing/sounds/maru.wav";
-char batu[]  = "../ros_catkin_ws/src/typing/sounds/batu.wav";
+char start[] = "../catkin_ws/src/typing/sounds/start.wav";
+char maru[]  = "../catkin_ws/src/typing/sounds/maru.wav";
+char batu[]  = "../catkin_ws/src/typing/sounds/batu.wav";
 char ringfile[128];/*}}}*/
 
 void ringCallback(const std_msgs::Int32 &msg)/*{{{*/
